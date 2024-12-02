@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Database connection
-db = MySQLdb.connect(host="localhost", user="root", password="Piu@3405", database="book")
+db = MySQLdb.connect(host="localhost", user="root", password="", database="book")
 cursor = db.cursor()
 
 # Table creation
